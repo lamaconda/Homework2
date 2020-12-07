@@ -2,7 +2,7 @@ package Calculate;
 
 import java.util.Scanner;
 
-public class Calculate {
+class Calculate {
     public static void main(String[] args) {
         System.out.println("Addition");
         System.out.println("Print first number, please");
