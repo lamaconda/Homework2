@@ -1,10 +1,10 @@
-package Calculate;
+package Task1.Calculate;
 
 import java.util.Scanner;
 
 class Calculate {
     public static void main(String[] args) {
-        System.out.println("Addition");
+
         System.out.println("Print first number, please");
         Scanner myInput = new Scanner(System.in);
         int firstNumber = myInput.nextInt();
