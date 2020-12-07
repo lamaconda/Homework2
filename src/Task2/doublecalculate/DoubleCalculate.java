@@ -1,28 +1,27 @@
-package Task1.Calculate;
+package Task2.doublecalculate;
 
 import java.util.Scanner;
 
-class Calculate {
+public class DoubleCalculate {
     public static void main(String[] args) {
-
-        System.out.println("Print first number, please");
+        System.out.println("Print first double number, please");
         Scanner myInput = new Scanner(System.in);
-        int firstNumber = myInput.nextInt();
+        double firstNumber = myInput.nextDouble();
 
-        System.out.println("Print second number, please");
-        int secondNumber = myInput.nextInt();
+        System.out.println("Print second double number, please");
+        double secondNumber = myInput.nextDouble();
 
         System.out.println("Adding...");
-             int addResult = firstNumber + secondNumber;
+        double addResult = firstNumber + secondNumber;
         System.out.println(addResult +" is your result");
         System.out.println("Subtracting...");
-            int subResult = firstNumber - secondNumber;
+        double subResult = firstNumber - secondNumber;
         System.out.println(subResult + " is your result");
         System.out.println("Умножаем...");
-            int multResult = firstNumber * secondNumber;
+        double multResult = firstNumber * secondNumber;
         System.out.println(multResult + " is your result");
         System.out.println("Делим...");
-        int divResult = firstNumber / secondNumber;
+        double divResult = firstNumber / secondNumber;
         System.out.println(divResult + " is your result");
 
     }
